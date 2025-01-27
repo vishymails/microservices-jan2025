@@ -1,0 +1,9 @@
+package com.bvr.demo;
+
+public class SecondSampleBean {
+
+	public SecondSampleBean() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

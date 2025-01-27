@@ -1,0 +1,9 @@
+package com.bvr.demo;
+
+public class HrResource {
+
+	public HrResource() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

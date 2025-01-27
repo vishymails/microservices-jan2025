@@ -1,0 +1,9 @@
+package com.bvr.demo;
+
+public class Disease {
+
+	public Disease() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

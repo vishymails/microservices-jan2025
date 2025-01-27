@@ -1,0 +1,9 @@
+package com.bvr.demo;
+
+public class ExampleProperties {
+
+	public ExampleProperties() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.bvr.demo;
+
+@RestController
+public class MyEndPoint2 {
+
+	public MyEndPoint2() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	@Autowired
+	private UserDaoService service;
+	
+	@GetMapping("/users")
+	public List<User> retrieveAll() {
+		return service.findAll();
+	}
+
+}
