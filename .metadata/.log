@@ -4683,3 +4683,83 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.m2e.logback.appender 4 0 2025-01-31 15:46:03.160
 !MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-01-31 16:59:18.626
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 16:59:20.118
+!MESSAGE Classpath changed for project: jwt-service
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-01-31 16:59:21.617
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 16:59:21.683
+!MESSAGE Classpath changed for project: jwt-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 16:59:21.700
+!MESSAGE Boot project ADDED: jwt-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 16:59:21.839
+!MESSAGE Classpath changed for project: jwt-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 16:59:22.941
+!MESSAGE Classpath changed for project: jwt-service
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-01-31 16:59:24.413
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-31 16:59:31.799
+!MESSAGE executing callback sts4.classpath.Biktmqut FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-31 16:59:31.804
+!MESSAGE executing callback sts4.classpath.toMHWRDY FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-01-31 16:59:31.805
+!MESSAGE No language server has registered to handle command 'sts4.classpath.Biktmqut'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.Biktmqut'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.lambda$1(LSP4ECommandExecutor.java:32)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:32)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-01-31 16:59:31.807
+!MESSAGE No language server has registered to handle command 'sts4.classpath.toMHWRDY'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.toMHWRDY'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.lambda$1(LSP4ECommandExecutor.java:32)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:32)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-31 16:59:32.224
+!MESSAGE executing callback sts4.classpath.toMHWRDY FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-31 16:59:32.367
+!MESSAGE executing callback sts4.classpath.Biktmqut FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-01-31 16:59:32.389
+!MESSAGE No language server has registered to handle command 'sts4.classpath.Biktmqut'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.Biktmqut'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.lambda$1(LSP4ECommandExecutor.java:32)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:32)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-01-31 16:59:32.394
+!MESSAGE No language server has registered to handle command 'sts4.classpath.toMHWRDY'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.toMHWRDY'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.lambda$1(LSP4ECommandExecutor.java:32)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:32)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
