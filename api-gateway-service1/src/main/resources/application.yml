@@ -1,0 +1,6 @@
+spring :
+  application : 
+    name : api-gateway-service1
+
+server :
+  port : 8081
